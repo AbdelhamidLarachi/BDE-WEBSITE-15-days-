@@ -1,0 +1,188 @@
+label {
+    display: block;
+    font: 1rem , sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.note {
+    font-size: .8em;
+}
+
+#ideaStory {
+  height: 50px;
+  width: 400px;
+}
+#Share{
+
+  border: none;
+  outline: none;
+  height: 25px;
+  font-size: 18px;
+  color: #fff; 
+  background: #5D77FE;
+    width: 82%;
+    border-radius: 20px;
+    position: relative; right: 40px;
+  transition: 1s;
+
+}
+#Share:hover {
+
+  cursor: pointer;
+  background: #fff;
+  color: #5D77FE;
+  transition: 1s;
+}
+
+textarea {
+  border-radius: 10px;
+  border-color: #5D77FE;
+}
+input[type="datetime-local"] {
+border-radius: 10px;
+margin: 1px;
+position: relative; 
+right: 140px;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+.counts {
+  -webkit-animation: seconds 1.0s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 5s;
+  animation: seconds 1.0s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+  position: relative;
+  padding: 5px;
+  background-color: #32CD32;
+  color: white;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;  
+  transition: 1s;
+}
+@-webkit-keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px; 
+    position: absolute;   
+  }
+}
+@keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px;
+    position: absolute;     
+  }
+}
+
+
+.alert1 {
+  padding: 5px;
+  background-color: #32CD32;
+  color: white;
+  margin-bottom: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+
+
+}
+
+.closebtn1 {
+  margin-left: 5px;
+  color: white;
+  font-weight: bold;
+  float: left;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.closebtn1:hover {
+  color: black;
+ 
+ }
+ .alert2 {
+  padding: 5px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+.closebtn2 {
+  margin-left: 5px;
+  color: white;
+  font-weight: bold;
+  float: left;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.closebtn2:hover {
+  color: black;
+ 
+ }
+.userNames:hover {
+	cursor: pointer;
+
+}
+.tooltip7 .tooltiptext7 {
+  visibility: hidden;
+  width: 280px;
+  background-color: #0000FF;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  padding: 10px;
+margin: 10px;
+right: 710px;
+top: 150px;
+
+
+}
+
+.tooltip7:hover .tooltiptext7 {
+  visibility: visible;
+}

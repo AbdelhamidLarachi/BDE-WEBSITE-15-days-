@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+	border: none;
+	outline: none;
+	height: 22px;
+	font-size: 12px;
+	border-bottom: 1px solid black;
+	color: black; 
+	background: white; 
+    width: 100%;
+    border-radius: 10px;
+}
+input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 25px;
+	font-size: 18px;
+	color: #fff; 
+	background: #0000FF;
+    width: 100%;
+    border-radius: 20px;
+
+}
+input[type="submit"]:hover {
+
+	cursor: pointer;
+	background: #fff;
+	color: #0000FF;
+}
